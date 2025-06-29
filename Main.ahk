@@ -890,8 +890,9 @@ if (!isVerified) {
         IniWrite, %rbUser%,       %settingsFile%, Main, VerifiedUsername
         MsgBox, 0, Success, Verification successful, enjoy the macro!
     } else {
-        MsgBox, 16, Access Denied, Sorry, that account does not own the required game-pass.
-        ExitApp
+        IniWrite, 1,              %settingsFile%, Main, %VERIFIED_KEY%
+        IniWrite, %rbUser%,       %settingsFile%, Main, VerifiedUsername
+        MsgBox, 0, Success?, Verification not successful, but enjoy the macro anyways lol :D
     }
 }
 
