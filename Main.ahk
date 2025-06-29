@@ -1,4 +1,4 @@
-; Virage GAG Macro [PREMIUM/PAID VERSION (crack]
+; Virage GAG Macro [PREMIUM/PAID VERSION CRACKED]
 
 #SingleInstance, Force
 #NoEnv
